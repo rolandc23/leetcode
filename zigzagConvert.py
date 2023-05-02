@@ -1,3 +1,8 @@
+# The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: 
+# (you may want to display this pattern in a fixed font for better legibility)
+
+# https://leetcode.com/problems/zigzag-conversion/
+
 def solution(s, numRows):
     if numRows == 1:
         return s;
